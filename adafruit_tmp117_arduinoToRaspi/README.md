@@ -7,7 +7,11 @@
 
 
 
-# Presettings
+### Raspi Presettings
+
+![image](https://github.com/Zarina-dev/Sensors/assets/61898376/88acbaf3-8249-47bd-9175-3e80345428b9)
+
+raspi는 이런 상태에서 실행했음.
 
 ### Arduino IDE 설치 in Raspi
 
