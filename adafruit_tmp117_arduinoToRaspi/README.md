@@ -13,6 +13,8 @@
 
 raspi는 이런 상태에서 실행했음.
 
+<br><br>
+
 ### Arduino IDE 설치 in Raspi
 
 * check raspi bit
