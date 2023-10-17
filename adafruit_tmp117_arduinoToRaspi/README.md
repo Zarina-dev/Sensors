@@ -121,7 +121,8 @@ python3 SerialArduino.py
 
 if 여기서 **Device or resource busy: /dev/ttyACM0** 에러가 뜨면<br>
 동작중인 Serial Monitor 화면을 닫은 다음에 실행하면 됨. <br>
-파이썬 파일 실행된 다음 다시 Serial Monitor를 켜도 되고~
+
+*(python file에서 ser.readline()과 Serial Monitor를 동시에 실행하면 안될 거 같아)*
 
 <br><br><br>
 
