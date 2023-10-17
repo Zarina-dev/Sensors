@@ -75,7 +75,7 @@ tmp117 센서를 해당한 핀에 다음과 같이 연결함:
 
     tool-Serial Monitor 클릭하면 Serial.print 내용들이 출력됨.
 
-    ![Alt text](image-7.png)
+    ![Alt text](image-10.png)
 
     Note: 보트레이트를 115200로 설정!
 
