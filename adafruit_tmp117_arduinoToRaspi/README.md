@@ -163,11 +163,10 @@ python file에서:
 
 Arduino and Raspberri Pi is doing Serial Communicatication. <br>
 For this, it is using USB cable as a communication link(channel), this cable carries both power and data.<br>
-Wwhen connect Arduino and Raspi via USB cable, this is called USB-to-Serial connection.
+When connect Arduino and Raspi via USB cable, this is called USB-to-Serial connection.
 <br><br>
 
-**Serial Communication** <br>
-Serial Communication is a method of sending data by one bit at a time sequentially over communication channel. Devices can communicate with this method. If one device is transmitter, second one will be receiver. <br><br>
+**Serial Communication** is a method of sending data by one bit at a time sequentially over communication channel. Devices can communicate with this method. If one device is transmitter, second one will be receiver. <br><br>
 
 **Arduino** has a UART that allows to serial communicate. <br>
 when Arduino does ```Serial.print(data)```, it writes data to communication channel(which is USB cable) and data gets sent over that channel.<br><br>
