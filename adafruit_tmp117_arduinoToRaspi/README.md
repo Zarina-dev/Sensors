@@ -162,7 +162,8 @@ python file에서:
 ### How it works
 
 Arduino and Raspberri Pi is doing Serial Communicatication. <br>
-For this, it is using USB cable as a communication link(channel), this cable carries both power and data. when connect Arduino and Raspi via USB cable, this is called USB-to-Serial connection.
+For this, it is using USB cable as a communication link(channel), this cable carries both power and data.<br>
+Wwhen connect Arduino and Raspi via USB cable, this is called USB-to-Serial connection.
 <br><br>
 
 **Serial Communication** <br>
