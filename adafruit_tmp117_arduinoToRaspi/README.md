@@ -4,7 +4,9 @@
 * Arduino Uno is connected to Raspi via USB cable
 * Arduino IDE is installed in Raspi
 * python file is created in Raspi to receive data from Arduino
-
+  
+<br><br>
+참조: <a href="https://learn.adafruit.com/adafruit-tmp117-high-accuracy-i2c-temperature-monitor/arduino"> Arduino tmp117 사용 예제</a>
 
 
 ### Raspi Presettings
