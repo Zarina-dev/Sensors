@@ -159,7 +159,7 @@ python file에서:
 ![Alt text](image-9.png)
 
 
-### How works
+### How it works
 
 Arduino and Raspberri Pi is doing Serial Communicatication. <br>
 For this, using USB cable as a communication link(channel), this cable carries both power and data. when connect Arduino and Raspi via USB cable, this is called USB-to-Serial connection.
