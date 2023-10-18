@@ -111,7 +111,8 @@ print('Connected to Arduino')
 print('Waiting for data...')
 
 while True:
-        readdata = ser.readline()
+        readdata = ser.readline()                # reads data by one line(\n나올때까지)
+                                                 # can be: ser.readline().decode('utf-8').strip()
         print("Received data from Arduino: "+str(readdata))
 
 
