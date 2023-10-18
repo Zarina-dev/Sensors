@@ -179,11 +179,14 @@ on Raspberry Pi, we can use **Python** language(can be other programming languag
 **abstract visualization:**
 
 Connecting: <br>
-![image](https://github.com/Zarina-dev/Sensors/assets/61898376/8de46b97-b295-4bca-b412-ac00b27d7b85)
+
+![image](https://github.com/Zarina-dev/Sensors/assets/61898376/606c970e-4ed7-4a4a-8e18-165dfdcd8686)
+
 
 <br>
 
 Data transmitting & Receiving: <br>
+
 「![image](https://github.com/Zarina-dev/Sensors/assets/61898376/22bc2962-587e-450d-a052-1a91bf1016d7)
 
 <br><br><br><br>
