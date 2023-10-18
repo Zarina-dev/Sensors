@@ -157,3 +157,35 @@ Arduino- Serial Monitor:
 python file에서:
 
 ![Alt text](image-9.png)
+
+
+### How works
+
+Arduino and Raspberri Pi is doing Serial Communicatication. <br>
+For this, using USB cable as a communication link(channel), this cable carries both power and data. when connect Arduino and Raspi via USB cable, this is called USB-to-Serial connection.
+<br><br>
+
+**Serial Communication** <br>
+Serial Communication is a method of sending data by one bit at a time sequentially over communication channel. Devices can communicate with this method. If one device is transmitter, second one will be receiver. <br><br>
+
+**Arduino** has a UART that allows to serial communicate. <br>
+when Arduino does ```Serial.print(data)```, it writes data to communication channel(which is USB cable) and data gets sent over that channel.<br><br>
+
+on **Raspberry Pi**, when we connect Arduino via USB cable, Raspberry Pi recognizes Arduino as a USB device. That USB device is then asssigned a device file, such as /dev/ttyACM0. <br><br>
+
+on Raspberry Pi, we can use **Python** language(can be other programming language also) to open that /dev/ttyACM0 device file, than read data sent by Arduino through USB cable. 
+<br><br><br>
+
+**abstract visualization:**
+
+Connecting: <br>
+![image](https://github.com/Zarina-dev/Sensors/assets/61898376/8de46b97-b295-4bca-b412-ac00b27d7b85)
+
+<br>
+
+Data transmitting & Receiving: <br>
+「![image](https://github.com/Zarina-dev/Sensors/assets/61898376/22bc2962-587e-450d-a052-1a91bf1016d7)
+
+<br><br><br><br>
+
+
