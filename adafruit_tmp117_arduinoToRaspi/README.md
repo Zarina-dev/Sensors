@@ -124,11 +124,24 @@ ser.close()
 python3 SerialArduino.py        
 ```
 하여 코드 실행.
+<br><br>
+**Error 경우**:
+대부분 에러를 아두이노도 파이썬파일도 다 닫은 후 처음부터 실행하여 해결할 수 있음. 
+<br>
 
-if 여기서 **Device or resource busy: /dev/ttyACM0** 에러가 뜨면<br>
+* **Device or resource busy: /dev/ttyACM0** 에러가 뜨면 <br>
 동작중인 Serial Monitor 화면을 닫은 다음에 실행하면 됨. <br>
-
 *(python file에서 ser.readline()과 Serial Monitor를 동시에 실행하면 안될 거 같아)*
+<br>
+
+* Arduino IDE에서 얼보드시 **avrdude: stk500_disable(): protocol error, expect=0x14,resp=0x72**에러가 뜨면<br>
+이미 background에서 sensor값을 읽어와서 파이썬파일로 보내고 있기 때문에 뜬 에러임.<br>
+먼저 python file을 닫은 후 아두이노 스케츠를 업로드하면 됨.<br>
+<br>
+
+
+
+
 
 <br><br><br>
 
