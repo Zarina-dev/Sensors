@@ -36,6 +36,9 @@ $ getconfig LONG_BIT        # 32Bit
 
 *(이렇게 하면 아두이노 power on 기능도 함)*
 
+<br><br>
+
+
 ### Arduino가 연결된 serial 포트 확인
 
 1. ```$lsusb``` 하면  'Arduino SA UNO R3(CDC ACM)'과 같은 아두이노 인식됐다는 내용을 볼 수 있음 <br>
@@ -44,7 +47,7 @@ $ getconfig LONG_BIT        # 32Bit
 (/dev/tty* 들이 많은데 어떻게 구분을 하지?? - /dev/tty*의 created time을 보고 제일 최근에 생성된 파일이 그거임을 알 수 있다.<br>
 usb serial port는 보통 /dev/ttyACMx or /dev/ttyUSBx로 표시된다.) <br>
 
-3/. Arduino IDE - tool - 포트에서 확인이 가능하다.
+3. Arduino IDE - tool - 포트에서 확인이 가능하다.
 
 
 <br><br>
