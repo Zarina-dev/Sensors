@@ -44,8 +44,7 @@ $ getconfig LONG_BIT        # 32Bit
 1. ```$lsusb``` 하면  'Arduino SA UNO R3(CDC ACM)'과 같은 아두이노 인식됐다는 내용을 볼 수 있음 <br>
 
 2. ```$ls -l /dev/tty*``` 하면 새로 연결된 포트에 대한 새로운 device file을 확인할 수 있음.<br>
-(/dev/tty* 들이 많은데 어떻게 구분을 하지??<br>
-- /dev/tty*의 created time을 보고 제일 최근에 생성된 파일이 그거임을 알 수 있음.<br>
+(/dev/tty* 들이 많은데 어떻게 구분을 하지?? - /dev/tty*의 created time을 보고 제일 최근에 생성된 파일이 그거임을 알 수 있음.<br>
 usb serial port는 보통 /dev/ttyACMx or /dev/ttyUSBx로 표시됨.) <br>
 
 4. Arduino IDE - tool - 포트에서 확인이 가능하다.
