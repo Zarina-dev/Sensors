@@ -71,7 +71,7 @@ Raspberry Pi pinout이 다음과 같이 때문에:
 
 
 ### 소스 코드 및 실행
-<a href="https://tutorials-raspberrypi.com/raspberry-pi-heartbeat-pulse-measuring/">이 link</a>와 똑같이 하면 됨.
+<a href="https://tutorials-raspberrypi.com/raspberry-pi-heartbeat-pulse-measuring/">이 link</a>와 똑같이 하면 됨:
 <br>
 
 * git clone
