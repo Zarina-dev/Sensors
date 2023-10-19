@@ -56,7 +56,7 @@ Raspberry Pi pinout이 다음과 같이 때문에:
 
 * git clone
   ```
-  $ git clone https://github.com/tutRPi/Raspberry-Pi-Heartbeat-Pulse-Sensor.git
+  $ git clone https://github.com/tutRPi/Raspberry-Pi-Heartbeat-Pulse-Sensor
   ```
 * 실행 (zrn:새로운 venv를 생성해서 거기서 하는 걸 추천추천)
   ```
