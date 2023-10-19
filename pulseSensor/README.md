@@ -5,8 +5,8 @@
 
 Pulse sensor 값은 analog임. arduino는 analog 핀들도 있지만<br>
 라베파는 아날로그 핀이 없음.<br>
-그래서 ADC converter chip을 사용하여 pulse의 아날로그 데이터를<br>
-디지털로 변환후 라베파로 전송하기 위해 adc converter를 사용했음.<br>
+그래서 pulse의 아날로그 데이터를 디지털로 변환후<br>
+라베파로 전송하기 위해 adc converter를 사용했음.<br>
 <br>
 <br>
 
@@ -15,8 +15,15 @@ Pulse sensor 값은 analog임. arduino는 analog 핀들도 있지만<br>
 
 ### Raspi Presettings
 
+![image](https://github.com/Zarina-dev/Sensors/assets/61898376/b41e10a6-df4b-448b-a0d7-1f1b36655c5b)
+
 
 *(SPI가 꼭 enable 되어 있어야함)*
+
+<br>
+<br>
+
+
 
 ### chip들을 Raspi와 GPIO 연결
 
@@ -43,6 +50,19 @@ Raspberry Pi pinout이 다음과 같이 때문에:
 
 <br><br>
 
+### 소스 코드 및 실행
+<a href="https://tutorials-raspberrypi.com/raspberry-pi-heartbeat-pulse-measuring/">이 link</a>와 똑같이 하면 됨.
+<br>
+
+* git clone
+  ```
+  $ git clone https://github.com/tutRPi/Raspberry-Pi-Heartbeat-Pulse-Sensor.git
+  ```
+* 실행 (zrn:새로운 venv를 생성해서 거기서 하는 걸 추천추천)
+  ```
+  $ cd Raspberry-Pi-Heartbeat-Pulse-Sensor/
+  $ sudo python example.py
+  ```
 
 ### 실행 결과
 
