@@ -36,7 +36,16 @@ $ getconfig LONG_BIT        # 32Bit
 
 *(이렇게 하면 아두이노 power on 기능도 함)*
 
-* ```$lsusb``` 하면  'Arduino SA UNO R3(CDC ACM)'과 같은 아두이노 인식됐다는 내용을 볼 수 있음
+* ```$lsusb``` 하면  'Arduino SA UNO R3(CDC ACM)'과 같은 아두이노 인식됐다는 내용을 볼 수 있음 <br>
+
+* ```$ls -l /dev/tty*``` 하면 새로 연결된 포트에 대한 새로운 device file을 확인할 수 있음.<br>
+/dev/tty* 들이 많은데 어떻게 구분을 하지?? - /dev/tty*의 created time을 보고 제일 최근에 생성된 파일이 그거임을 알 수 있다.<br>
+usb serial port는 보통 /dev/ttyACMx or /dev/ttyUSBx로 표시된다.<br>
+
+or<br>
+
+Arduino IDE - tool - 포트에서 확인이 가능하다.
+
 
 <br><br>
 
@@ -44,8 +53,9 @@ $ getconfig LONG_BIT        # 32Bit
 ### Arduino가 연결된 serial 포트 확인
 * Arduino IDE 앱에서 
     - tool - 보드: Arduino Uno를 선택
-    - tool - 포트: **/dev/ttyACM0**(Arduino Uno) 와 같은 새로운 포트가 생김. **이는 아두이노를 라베파에 연결했기 때문에 그거에 대한 포트임**. 그걸 선택.
-*(Serial.print할때 그포트인 /dev/ttyACM0에 데이터가 써지게 됨(??))*
+    - tool - 포트: **/dev/ttyACM0**(Arduino Uno) 와 같은 새로 생긴 포트를 선택
+
+
 
 
 <br><br>
