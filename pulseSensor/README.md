@@ -52,17 +52,17 @@ Raspberry Pi pinout이 다음과 같이 때문에:
 
 **핀 연결 정리:**
 ```
-		Pulse_sen		MCP3008			  	RaspPi
-					Pin 16(VDD)		  --	Pin 1(3.3V)
+		Pulse_sen		MCP3008		  	RaspPi
+					Pin 16(VDD)	  --	Pin 1(3.3V)
 					Pin 15(VREF)	  -- 	Pin 1(3.3V)
 					Pin 14(AGND)	  -- 	Pin 6(GND)
-					Pin 13(CLK)		  --	Pin 23(SCLK)
+					Pin 13(CLK)	  --	Pin 23(SCLK)
 					Pin 12(DOUT)	  --	Pin 21(MISO)
-					Pin 11(DIN)		  --	Pin 19(MOSI)
-					Pin 10(SC/SHDN)	--	Pin 24(CE0)
-					Pin 9(DGND)		  --	Pin 6(GND)
+					Pin 11(DIN)	  --	Pin 19(MOSI)
+					Pin 10(SC/SHDN)	  --	Pin 24(CE0)
+					Pin 9(DGND)	  --	Pin 6(GND)
 		
-		Data	----- Pin 1(CH0)				
+		Data		-----  Pin 1(CH0)				
 		Vcc		--------------------------	Pin 1(3.3V)		
 		Gnd		--------------------------	Pin 6(GND)
 ```
