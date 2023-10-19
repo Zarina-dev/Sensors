@@ -48,7 +48,27 @@ Raspberry Pi pinout이 다음과 같이 때문에:
 
 **Note!** Pulse sensor의 signal pin은 adc converter의 channel pin에 연결하고, 나머지 gnd와 3.3v는 전원공급을 위해 raspberry pi 핀에 연결하고 있다.
 
+
+
+**핀 연결 정리:**
+```
+		Pulse_sen		MCP3008			  	RaspPi
+						    Pin 16(VDD)		  --	Pin 1(3.3V)
+						    Pin 15(VREF)	  -- 	Pin 1(3.3V)
+						    Pin 14(AGND)	  -- 	Pin 6(GND)
+						    Pin 13(CLK)		  --	Pin 23(SCLK)
+						    Pin 12(DOUT)	  --	Pin 21(MISO)
+						    Pin 11(DIN)		  --	Pin 19(MOSI)
+						    Pin 10(SC/SHDN)	--	Pin 24(CE0)
+						    Pin 9(DGND)		  --	Pin 6(GND)
+		
+		Data	----- Pin 1(CH0)				
+		Vcc		--------------------------	Pin 1(3.3V)		
+		Gnd		--------------------------	Pin 6(GND)
+```
+
 <br><br>
+
 
 ### 소스 코드 및 실행
 <a href="https://tutorials-raspberrypi.com/raspberry-pi-heartbeat-pulse-measuring/">이 link</a>와 똑같이 하면 됨.
