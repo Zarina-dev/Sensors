@@ -15,7 +15,8 @@ Pulse sensor 값은 analog임. arduino는 analog 핀들도 있지만<br>
 
 ### Raspi Presettings
 
-![image](https://github.com/Zarina-dev/Sensors/assets/61898376/b41e10a6-df4b-448b-a0d7-1f1b36655c5b)
+![image](https://github.com/Zarina-dev/Sensors/assets/61898376/8452e587-ea12-44e7-af74-edb911c4cd0a)
+
 
 
 *(SPI가 꼭 enable 되어 있어야함)*
