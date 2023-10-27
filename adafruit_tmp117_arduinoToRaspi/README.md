@@ -12,9 +12,10 @@
 
 ### Raspi Presettings
 
-![image](https://github.com/Zarina-dev/Sensors/assets/61898376/88acbaf3-8249-47bd-9175-3e80345428b9)
+![image](https://github.com/Zarina-dev/Sensors/assets/61898376/41f1ba4a-e599-4c49-8eae-b90d382a9408)
 
-raspi는 이런 상태에서 실행했음.
+
+raspi icon - 기본 설정 - Raspberry Pi Configuration은 이런 상태에서 실행했음 (SPI: On, I2C: On, Serial Console: On)
 
 <br><br>
 
