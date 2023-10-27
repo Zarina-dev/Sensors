@@ -194,14 +194,14 @@ on Raspberry Pi, we can use **Python** language(can be other programming languag
 
 Connecting: <br>
 
-![image](https://github.com/Zarina-dev/Sensors/assets/61898376/606c970e-4ed7-4a4a-8e18-165dfdcd8686)
+![Alt text](image-11.png)
 
 
 <br>
 
 Data transmitting & Receiving: <br>
 
-「![image](https://github.com/Zarina-dev/Sensors/assets/61898376/22bc2962-587e-450d-a052-1a91bf1016d7)
+![Alt text](image-12.png)
 
 <br><br><br><br>
 
